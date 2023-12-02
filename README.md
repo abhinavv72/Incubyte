@@ -1,34 +1,35 @@
-# Incubyte
+# Chandrayaan 3 Lunar Craft: Galactic Space Craft Control
 
+## Overview
+As part of the prestigious ISRO's Chandrayaan 3 mission, this software plays a crucial role in controlling the latest lunar spacecraft, translating commands from Earth into instructions for galactic navigation. Designed for precision and efficiency, this program is the bridge between mission control and the Chandrayaan 3 spacecraft, navigating through the galaxy using a sophisticated coordinate system.
 
-Chandrayaan 3 Lunar Craft: Galactic Space Craft Control
-Description
-As a scientist at ISRO controlling the latest lunar spacecraft Chandrayaan 3, this program translates commands sent from Earth into instructions understood by the spacecraft. The spacecraft navigates through the galaxy using galactic coordinates, represented by x, y, z coordinates.
-Example
-Given the starting point (0, 0, 0) following (x, y, z) and initial direction 'N', the following commands result in the indicated final position and direction:
+### Galactic Navigation System
+- **Coordinates**: The spacecraft operates in a three-dimensional space using galactic coordinates (x, y, z).
+- **Directions**: It interprets and executes commands to move forward (`f`), reverse (`r`), up (`u`), back (`b`), and left (`l`).
 
-Commands: f, r, u, b, l
-Starting Position: (0, 0, 0)
-Initial Direction: 'N'
-Final Position: (0, 1, -1)
-Final Direction: 'N'
+### Example
+- **Starting Point**: (0, 0, 0) with initial direction 'N'.
+- **Commands**: `f`, `r`, `u`, `b`, `l`.
+- **Final Position**: (0, 1, -1) with final direction 'N'.
 
-Testing
-To run the unit tests, execute:
+## Requirements
+To run this program, ensure your system meets the following requirements:
+- Python 3.6 or higher
+
+## Setup and Usage
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/chandrayaan3-control.git
+
+## Testing
+
+To run the unit tests, use the following command:
 
 python -m unittest tests/test_spaceship.py
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details
 
-This README.md file contains:
+# License 
 
-A project title and description.
-Requirements necessary to run the project.
-Setup and usage instructions.
-A description of the commands the spacecraft understands.
-An example illustrating how to use the program.
-Testing instructions to run the unit tests.
-A mention of the license under which the project is released.
-To create this README.md file, simply create a new text file in the root directory of your project, name it README.md, and copy the above content into that file. Make sure to replace your-username with your actual GitHub username and adjust the repository URL accordingly.
+This project is released under the MIT License. For more details, see the LICENSE.md file.
 
-This file will be automatically displayed on the front page of your GitHub repository.
+## Acknowledgements
+Special thanks to the team at ISRO and all contributors who made the Chandrayaan 3 mission a reality.
